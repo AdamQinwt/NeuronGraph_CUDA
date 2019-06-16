@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Neurons">
+      <UniqueIdentifier>{649c32af-c91f-47af-8d56-51d4af1391fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Optimizers">
+      <UniqueIdentifier>{f42ee4b3-35d2-4d1f-bb7b-12bed94451df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuronGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Trainable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurons\Neuron.h">
+      <Filter>Neurons</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurons\NeuronFC.h">
+      <Filter>Neurons</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurons\NeuronVariable.h">
+      <Filter>Neurons</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurons\NeuronAL2.h">
+      <Filter>Neurons</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\Optimizer.h">
+      <Filter>Optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\SGD_Optimizer.h">
+      <Filter>Optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurons\NeuronADELTA2.h">
+      <Filter>Neurons</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurons\NeuronConstant.h">
+      <Filter>Neurons</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurons\NeuronADD.h">
+      <Filter>Neurons</Filter>
+    </ClInclude>
+    <ClInclude Include="Normalized_Initializer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dataset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\AdaGrad_Optimizer.h">
+      <Filter>Optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\Adam_Optimizer.h">
+      <Filter>Optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\RMSProp_Optimizer.h">
+      <Filter>Optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\ConjGrad_Optimizer.h">
+      <Filter>Optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurons\NeuronConv.h">
+      <Filter>Neurons</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurons\NeuronMaxPool.h">
+      <Filter>Neurons</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer\ConjGradImproved_Optimizer.h">
+      <Filter>Optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="SeqSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Neurons\NeuronCrossEntropy.h">
+      <Filter>Neurons</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuronGraph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurons\Neuron.cpp">
+      <Filter>Neurons</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurons\NeuronFC.cpp">
+      <Filter>Neurons</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurons\NeuronVariable.cpp">
+      <Filter>Neurons</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurons\NeuronAL2.cpp">
+      <Filter>Neurons</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizer\Optimizer.cpp">
+      <Filter>Optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizer\SGD_Optimizer.cpp">
+      <Filter>Optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurons\NeuronADELTA2.cpp">
+      <Filter>Neurons</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurons\NeuronConstant.cpp">
+      <Filter>Neurons</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurons\NeuronADD.cpp">
+      <Filter>Neurons</Filter>
+    </ClCompile>
+    <ClCompile Include="Normalized_Initializer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dataset.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizer\AdaGrad_Optimizer.cpp">
+      <Filter>Optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizer\Adam_Optimizer.cpp">
+      <Filter>Optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizer\RMSProp_Optimizer.cpp">
+      <Filter>Optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizer\ConjGrad_Optimizer.cpp">
+      <Filter>Optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurons\NeuronConv.cpp">
+      <Filter>Neurons</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurons\NeuronMaxPool.cpp">
+      <Filter>Neurons</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizer\ConjGradImproved_Optimizer.cpp">
+      <Filter>Optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="SeqSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Neurons\NeuronCrossEntropy.cpp">
+      <Filter>Neurons</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Kernel.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
